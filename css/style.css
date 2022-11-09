@@ -29,3 +29,15 @@ div.row div.col-6 div.row [class*="col-"]{
 section#bottom{
     margin: 2rem 0;
 }
+
+section#offset{
+    padding-bottom: 1rem;
+}
+
+section#offset *{
+    border: none;
+}
+
+section#offset [class*="col-"]{
+    border-bottom: 1px solid white; 
+}
