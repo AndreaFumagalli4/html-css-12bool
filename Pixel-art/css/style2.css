@@ -6,8 +6,33 @@
     box-sizing: border-box;
 }
 
+.p-relative{
+    position: relative;
+}
+
 main{
-    padding: 1rem 0;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+div.small-ball{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+div.small-ball-yellow{
+    background-color: yellow;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+div.small-ball-silver{
+    background-color: silver;
+    position: absolute;
+    top: 25px;
+    left: 170px;
 }
 
 [class*="col-"]{
@@ -19,4 +44,17 @@ div.col-2,
 div.col-4,
 div.col-6{
     background-color: rgb(8, 165, 8);
+    border-bottom: 10px dotted red;
+}
+
+div.col-1,
+div.col-3,
+div.col-5,
+div.col-7{
+    border-bottom: 10px dotted white;
+}
+
+div.wood{
+    background-color: brown;
+    border: none;
 }
