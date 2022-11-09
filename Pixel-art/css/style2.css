@@ -5,3 +5,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+main{
+    padding: 1rem 0;
+}
+
+[class*="col-"]{
+    background-color: green;
+    height: 5rem;
+}
+
+div.col-2,
+div.col-4,
+div.col-6{
+    background-color: rgb(8, 165, 8);
+}
