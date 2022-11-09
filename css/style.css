@@ -25,3 +25,7 @@ div.row div.col-6 div.row [class*="col-"]{
     line-height: 3rem;
     height: 3rem;
 }
+
+section#bottom{
+    margin: 2rem 0;
+}
