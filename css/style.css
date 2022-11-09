@@ -16,7 +16,7 @@
 }
 
 div.row div.col-6 div.row{
-    padding: 1rem;
+    padding: 1rem .5rem;
 }
 
 div.row div.col-6 div.row [class*="col-"]{
