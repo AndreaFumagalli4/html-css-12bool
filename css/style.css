@@ -14,3 +14,14 @@
     line-height: 5rem;
     height: 5rem;
 }
+
+div.row div.col-6 div.row{
+    padding: 1rem;
+}
+
+div.row div.col-6 div.row [class*="col-"]{
+    background-color: #01e165;
+    border: 1px solid #006cfa;
+    line-height: 3rem;
+    height: 3rem;
+}
