@@ -5,3 +5,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+[class*="col-"]{
+    background-color: #006cfa;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 5rem;
+    height: 5rem;
+}
