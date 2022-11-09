@@ -15,24 +15,9 @@ main{
     text-align: center;
 }
 
-div.small-ball{
-    height: 40px;
-    width: 40px;
-    border-radius: 20px;
-}
-
-div.small-ball-yellow{
-    background-color: yellow;
-    position: absolute;
-    top: 10px;
-    left: 50px;
-}
-
-div.small-ball-silver{
-    background-color: silver;
-    position: absolute;
-    top: 25px;
-    left: 170px;
+span#star{
+    color: yellow;
+    font-size: 3rem;
 }
 
 [class*="col-"]{
@@ -58,3 +43,5 @@ div.wood{
     background-color: brown;
     border: none;
 }
+
+
